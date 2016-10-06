@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/isjia/wechat-nodejs-7-days-demo/issues"
   },
-  "homepage": "https://github.com/isjia/wechat-nodejs-7-days-demo#readme"
+  "homepage": "https://github.com/isjia/wechat-nodejs-7-days-demo#readme",
+  "devDependencies": {
+    "browser-sync": "^2.17.0",
+    "gulp": "^3.9.1",
+    "gulp-markdown": "^1.2.0",
+    "gulp-wrap": "^0.13.0"
+  }
 }
