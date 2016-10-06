@@ -24,5 +24,8 @@
     "gulp": "^3.9.1",
     "gulp-markdown": "^1.2.0",
     "gulp-wrap": "^0.13.0"
+  },
+  "dependencies": {
+    "github-markdown-css": "^2.4.1"
   }
 }

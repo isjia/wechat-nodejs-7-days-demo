@@ -10,7 +10,12 @@ gulp.task('markdown', function(){
     .pipe(gulp.dest('_site'));
 });
 
-gulp.task('serve', ['markdown'], function(){
+gulp.task('cp-github-md-css', function(){
+  gulp.src('node_modules/github-markdown-css/github-markdown.css')
+      .pipe(gulp.dest('_site/style'));
+});
+
+gulp.task('serve', ['markdown', 'cp-github-md-css'], function(){
   browserSync.init({
     server: {
       baseDir: './_site'
