@@ -1,3 +1,6 @@
+# project site in gh-pages branch
+_site
+
 # Logs
 logs
 *.log
