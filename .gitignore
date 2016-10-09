@@ -1,6 +1,9 @@
 # project site in gh-pages branch
 _site
 
+# production config
+*_production.js
+
 # Logs
 logs
 *.log

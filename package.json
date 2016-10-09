@@ -26,6 +26,8 @@
     "gulp-wrap": "^0.13.0"
   },
   "dependencies": {
-    "github-markdown-css": "^2.4.1"
+    "github-markdown-css": "^2.4.1",
+    "koa": "^1.2.4",
+    "sha1": "^1.1.1"
   }
 }
